@@ -8,6 +8,26 @@
     <title>todo-vue</title>
   </head>
   <body>
+        <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/6.4.0/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+        https://firebase.google.com/docs/web/setup#config-web-app -->
+
+    <script>
+      // Your web app's Firebase configuration
+      var firebaseConfig = {
+        apiKey: "AIzaSyCWeBUEpbFR9XfiXXQjeGL49HViGYBQlSc",
+        authDomain: "todo-vue-da652.firebaseapp.com",
+        databaseURL: "https://todo-vue-da652.firebaseio.com",
+        projectId: "todo-vue-da652",
+        storageBucket: "",
+        messagingSenderId: "797042809136",
+        appId: "1:797042809136:web:2f013cd039e71038"
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+    </script>
     <noscript>
       <strong>We're sorry but todo-vue doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
     </noscript>
